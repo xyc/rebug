@@ -9,6 +9,9 @@ Disclaimer: Experimental project. APIs might change, use at your discretion.
 
 Declaratively debug your component visually at per-component level.
 
+![](https://cldup.com/OV7D9mP3L0.png)
+![](https://cldup.com/cUtrBLPzRq-1200x1200.png)
+
 ## Usage
 
 ```js
