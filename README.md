@@ -29,6 +29,7 @@ class YourComponent extends React.Component{
   }
 }
 
+/* instead of `export default YourComponent` */
 export default debugComponentName(YourComponent)
 ```
 
