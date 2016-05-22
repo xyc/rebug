@@ -1,0 +1,27 @@
+{
+  "name": "rebug",
+  "version": "0.0.3",
+  "description": "Declarative visual UI debugging",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir lib",
+    "clean": "rimraf lib",
+    "prerelease": "npm run clean && npm run build",
+    "release": "npm publish ."
+  },
+  "author": "Xiaoyi Chen <cxychina@gmail.com> (http://xiaoyi.ch/)",
+  "license": "ISC",
+  "devDependencies": {
+    "react": "^0.14.7",
+    "react-inspector": "^1.0.0-alpha.3",
+    "rimraf": "^2.4.4",
+    "babel-cli": "^6.7.5",
+    "babel-preset-es2015": "^6.0.0",
+    "babel-preset-react": "^6.0.0",
+    "babel-preset-stage-0": "^6.0.0"
+  },
+  "peerDependencies": {
+    "react": "^0.14.0 || ^15.0.0-0"
+  }
+}
