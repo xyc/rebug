@@ -41,6 +41,8 @@ class Component extends React.Component {
 }
 ```
 
+Hover your mouse over the component to see changes!
+
 You can customize your debug configuration:
 ```js
 import debug from 'rebug'
