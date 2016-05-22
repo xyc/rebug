@@ -63,7 +63,7 @@ export debug(config)(YourComponent)
 
 You can debug connected components as well:
 ```js
-export debug(config)(connect(SomeComponent))
+export debug(config)(connect(mapStateToProps, mapDispatchToProps)(SomeComponent))
 ```
 
 ## Features
