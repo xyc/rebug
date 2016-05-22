@@ -9,9 +9,6 @@ Disclaimer: Experimental project. APIs might change, use at your discretion.
 
 Declaratively and visually debug your component at per-component level. 
 
-#### The Motivation
-Have you ever written `console.log` in `render()` ? Do you feel that it's not the right thing to do but can't live without its convenience? Remember `render()` is supposed to be a pure function. You do `console.log` because you want to **visualize** what's happening out there. Why do you have to switch back and forth, and mapping the often unannotated logs with the visual representation of your component? What if your component has an **HUD**? Your app and your component should be your best console.
-
 ![](https://cldup.com/OV7D9mP3L0.png)
 ![](https://cldup.com/cUtrBLPzRq-1200x1200.png)
 
