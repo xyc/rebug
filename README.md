@@ -58,12 +58,12 @@ const config = {
     DOMTagName: {}
   }
 }
-export debug(config)(YourComponent)
+export default debug(config)(YourComponent)
 ```
 
 You can debug connected components as well:
 ```js
-export debug(config)(connect(mapStateToProps, mapDispatchToProps)(SomeComponent))
+export default debug(config)(connect(mapStateToProps, mapDispatchToProps)(SomeComponent))
 ```
 
 ## Features
