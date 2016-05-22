@@ -79,4 +79,8 @@ Currently `debug` is implemented as a [Higher-order Component](https://medium.co
 - some CSS selectors might not work as expected
 - Since border is rendered using box shadow, it might get blocked by the box shadow of the component to inspect.
 
-Another approach is to render the overlay component into the DOM tree on `componentDidMount`. Also need to check the support in React DevTools API.
+Another approach is to `ReactDOM.render` the overlay component into the DOM tree on `componentDidMount` and `ReactDOM.unmountComponentAtNode` the overlay component on `componentWillUnmount`. In order to display the overlay at the correct position, the DOM node of the inspected component needs to be accessible. For [stateless functional components](https://facebook.github.io/react/docs/reusable-components.html#stateless-functions), it needs to be wrapped to obtain the ref. 
+
+> However, if a user wants to find the DOM node of a stateless function component, they must wrap the component in a stateful component (eg. ES6 class component) and attach the ref to the stateful wrapper component.
+
+Also need to check the support in React DevTools API.
