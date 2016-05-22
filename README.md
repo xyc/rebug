@@ -70,7 +70,7 @@ export debug(config)(connect(SomeComponent))
 - [x] Show component's name, DOM tag name, dimensions
 - [ ] WIP: inspect component props and state
   - [ ] detect state change
-Feature suggestions & pull requests welcome!
+- [ ] Feature suggestions & pull requests welcome!
 
 ## Implementation and known issues
 The goal is to overlay (it doesn't have to be a wrapper) the debugging segment on the original component.
