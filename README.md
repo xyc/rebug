@@ -14,6 +14,11 @@ Declaratively and visually debug your component at per-component level.
 
 ## Usage
 
+Installation:
+```sh
+npm i -S rebug
+```
+
 ```js
 /* Shows component display name and DOM tag name/dimensions if possible */
 import { debugComponentName } from 'rebug'
