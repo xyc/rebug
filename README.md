@@ -76,4 +76,4 @@ The goal is to overlay (it doesn't have to be a wrapper) the debugging segment o
 
 Currently `debug` is implemented as a [Higher-order Component](https://medium.com/@dan_abramov/mixins-are-dead-long-live-higher-order-components-94a0d2f9e750)(HoC) and `YourComponent` is wrapped in an additional `div`. This might not work for some cases. Since border is rendered using box shadow, it might get blocked by the box shadow of the component to inspect.
 
-Another approach is to render the additional component into the DOM tree on `componentDidMount`. Also need to check the support in React DevTools API.
+Another approach is to render the overlay component into the DOM tree on `componentDidMount`. Also need to check the support in React DevTools API.
