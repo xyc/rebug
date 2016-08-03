@@ -1,9 +1,9 @@
 Rebug
 =====================
 
-<!-- [![build status](https://img.shields.io/travis/xyc/rebug/master.svg?style=flat-square)](https://travis-ci.org/xyc/react-inspector) -->
+<!-- [![build status](https://img.shields.io/travis/xyc/rebug/master.svg?style=flat-square)](https://travis-ci.org/xyc/rebug) -->
 [![npm version](https://img.shields.io/npm/v/rebug.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector)
-<!-- [![npm downloads](https://img.shields.io/npm/dm/rebug.svg?style=flat-square)](https://www.npmjs.com/package/react-inspector) -->
+<!-- [![npm downloads](https://img.shields.io/npm/dm/rebug.svg?style=flat-square)](https://www.npmjs.com/package/rebug) -->
 
 Disclaimer: Experimental project. APIs might change, use at your discretion.
 
