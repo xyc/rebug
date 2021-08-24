@@ -10,6 +10,10 @@
     "prerelease": "npm run clean && npm run build",
     "release": "npm publish ."
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xyc/rebug.git"
+  },
   "author": "Xiaoyi Chen <cxychina@gmail.com> (http://xiaoyi.ch/)",
   "license": "ISC",
   "devDependencies": {
